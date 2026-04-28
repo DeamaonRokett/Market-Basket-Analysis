@@ -5,7 +5,7 @@ It mines association rules from e-commerce transaction data using the **Apriori 
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 market_basket_analysis/
@@ -30,7 +30,7 @@ market_basket_analysis/
 
 ---
 
-## ⚡ Quick Start
+##  Quick Start
 
 ```bash
 # 1. Clone the repo
@@ -55,7 +55,7 @@ pytest tests/ -v
 
 ---
 
-## 📊 What the Pipeline Does
+##  What the Pipeline Does
 
 ### Step 1 — Data Loading & EDA
 - Loads CSV with 1,000 transactions across 22 product categories
@@ -91,7 +91,7 @@ pytest tests/ -v
 
 ---
 
-## 🔧 CLI Options
+##  CLI Options
 
 | Flag | Default | Description |
 |------|---------|-------------|
@@ -105,7 +105,7 @@ pytest tests/ -v
 
 ---
 
-## 📖 Key Concepts
+##  Key Concepts
 
 | Metric | Formula | Meaning |
 |--------|---------|---------|
@@ -119,7 +119,7 @@ pytest tests/ -v
 
 ---
 
-## 🧪 Tests
+##  Tests
 
 ```bash
 pytest tests/test_pipeline.py -v
@@ -134,7 +134,7 @@ Covers:
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 ```
 pandas, numpy, matplotlib, seaborn
@@ -146,7 +146,7 @@ pytest           # Testing
 
 ---
 
-## 💡 Extending This Project
+##  Extending This Project
 
 - **Swap the algorithm**: Replace Apriori with FP-Growth (`mlxtend.frequent_patterns.fpgrowth`) for faster mining on large datasets
 - **Add a Streamlit dashboard**: Wire `visualise.py` charts into a `streamlit run app.py` UI
